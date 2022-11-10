@@ -12,14 +12,14 @@ i.e 1 sec = $10^8$ computations<br/><br/>
 So the expected worst-case complexity for your problem should be -
 | No of Operations | Complexity | Approx |
 |--|--|--|
-|10<sup>12</sup>|O($\sqrt{N}$)||
-|$10^8$|O(N)||
-|$10^6$|O(N * $log{N}$)|2 * $10^7$|
+|10<sup>12</sup>|O( $\sqrt{N}$ )||
+|$10^8$|O( N )||
+|$10^6$|O( N * $log{N}$ )|2 * $10^7$|
 |$10^5$|O(N * $\sqrt{N}$)|3 * $10^7$|
-|$10^4$|O($N^2$)|$10^8$|
-|$10^3$|O($N^2$ * $\sqrt{N}$)|3 * $10^6$|
-|N $\leq$ 25|O($2^N$)|
-|N $\leq$ 10|O(N!)|
+|$10^4$|O( $N^2$ )|$10^8$|
+|$10^3$|O( $N^2$ * $\sqrt{N}$ )|3 * $10^6$|
+|N $\leq$ 25|O( $2^N$ )|
+|N $\leq$ 10|O( N! )|
 
 <br/>
 <br/>
@@ -27,9 +27,9 @@ And you may use one of the following data structures accordingly.
 
 |Data Structure|TC|
 |--|--|
-|Hashmap|O(N * $log{N}$)&nbsp;&nbsp;&nbsp;{Ordered}<br/>O(N)&nbsp;&nbsp;&nbsp;&nbsp;{Unordered}|
-|Heap|O(N * $log{N}$)|
-|Binary Search|O($log{N}$)|
-|Sorting algos|O(N * $log{N}$)|
-|Backtracking|O($2^N$)|
-|Permutations|O(N!)|
+|Hashmap|O( N * $log{N}$ )&nbsp;&nbsp;&nbsp;{Ordered}<br/>O( N )&nbsp;&nbsp;&nbsp;&nbsp;{Unordered}|
+|Heap|O( N * $log{N}$ )|
+|Binary Search|O( $log{N}$ )|
+|Sorting algos|O( N * $log{N}$ )|
+|Backtracking|O( $2^N$ )|
+|Permutations|O( N! )|
