@@ -6,8 +6,8 @@ There is an easy way to find out by simply looking at the constraints of your pr
 
 <br/>
 Let's understand this:<br/>
-A typical computer takes 1 second for $10^8$ computations.<br/>
-i.e 1 sec = $10^8$ computations<br/><br/>
+A typical computer takes 1 second for 10^8 computations.<br/>
+i.e 1 sec = 10^8 computations<br/><br/>
 
 So the expected worst-case complexity for your problem should be -
 | No of Operations | Complexity | Approx |
@@ -21,9 +21,9 @@ So the expected worst-case complexity for your problem should be -
 |N $\leq$ 25|O( $2^N$ )|
 |N $\leq$ 10|O( N! )|
 
-<br/>
-<br/>
+<br/><br/>
 And you may use one of the following data structures accordingly.
+<br/>
 
 |Data Structure|TC|
 |--|--|
